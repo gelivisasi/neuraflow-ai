@@ -1,7 +1,6 @@
 # 🧠 NeuraFlow AI | Distributed Multi-Agent & Prompt Intelligence Engine
 
 [![Live Demo](https://img.shields.io/badge/Live_Product-Surge_Cloud-38bdf8?style=for-the-badge&logo=surge)](https://neuraflow-ai.surge.sh)
-[![Unicorn AI Summit](https://img.shields.io/badge/Unicorn_AI_Summit-Candidate_2026-818cf8?style=for-the-badge)](https://luma.com/unicornsummit)
 [![Author](https://img.shields.io/badge/Engineer-@gelivisasi-c084fc?style=for-the-badge&logo=github)](https://github.com/gelivisasi)
 [![License](https://img.shields.io/badge/License-MIT-34d399?style=for-the-badge)](LICENSE)
 
@@ -80,4 +79,4 @@ npm run dev
 ---
 
 ## 📜 License
-Licensed under the [MIT License](LICENSE). Built for the **Unicorn AI Summit 2026** applicant portfolio.
+Licensed under the [MIT License](LICENSE).

@@ -56,7 +56,7 @@ export const Header: React.FC<HeaderProps> = ({
                 NeuraFlow AI
               </h1>
               <span className="badge-glow" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                <ShieldCheck size={12} /> Unicorn Summit Candidate
+                <ShieldCheck size={12} /> Enterprise v2.4 Engine
               </span>
             </div>
             <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>

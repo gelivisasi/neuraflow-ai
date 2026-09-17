@@ -68,7 +68,7 @@ export const BenchmarkPanel: React.FC<BenchmarkPanelProps> = ({ nodes, onExportS
       version: "2.4.0",
       framework: "NeuraFlow-AI",
       author: "gelivisasi",
-      targetEvent: "Unicorn AI Summit 2026",
+      environment: "production",
       timestamp: new Date().toISOString(),
       swarmTopology: nodes.map(n => ({
         id: n.id,
