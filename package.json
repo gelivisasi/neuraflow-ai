@@ -1,9 +1,9 @@
 {
-  "name": "agentic-flow-ai",
+  "name": "neuraflow-ai",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://gelivisasi.github.io/agentic-flow-ai",
+  "homepage": "https://gelivisasi.github.io/neuraflow-ai",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

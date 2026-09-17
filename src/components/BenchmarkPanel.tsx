@@ -66,7 +66,7 @@ export const BenchmarkPanel: React.FC<BenchmarkPanelProps> = ({ nodes, onExportS
   const agentSpecJSON = JSON.stringify(
     {
       version: "2.4.0",
-      framework: "AgenticFlow-AI",
+      framework: "NeuraFlow-AI",
       author: "gelivisasi",
       targetEvent: "Unicorn AI Summit 2026",
       timestamp: new Date().toISOString(),

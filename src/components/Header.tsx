@@ -1,6 +1,6 @@
 import React from 'react';
 import { TabType } from '../types';
-import { Bot, Sparkles, Database, BarChart3, Github, Play, Download, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Bot, Sparkles, Database, BarChart3, Github, Play, Download, ExternalLink, ShieldCheck, BrainCircuit } from 'lucide-react';
 
 interface HeaderProps {
   activeTab: TabType;
@@ -48,19 +48,19 @@ export const Header: React.FC<HeaderProps> = ({
             justifyContent: 'center',
             boxShadow: '0 0 20px rgba(99, 102, 241, 0.4)'
           }}>
-            <Bot size={24} color="#fff" />
+            <BrainCircuit size={24} color="#fff" />
           </div>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <h1 style={{ fontSize: '1.35rem', fontWeight: 800, letterSpacing: '-0.02em' }} className="text-gradient">
-                AgenticFlow AI
+                NeuraFlow AI
               </h1>
               <span className="badge-glow" style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
                 <ShieldCheck size={12} /> Unicorn Summit Candidate
               </span>
             </div>
             <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>
-              Autonomous Multi-Agent Orchestration & Prompt Engineering Studio • By{' '}
+              Distributed Autonomous Multi-Agent & Prompt Intelligence Engine • By{' '}
               <a 
                 href="https://github.com/gelivisasi" 
                 target="_blank" 
@@ -186,7 +186,7 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
 
           <a
-            href="https://github.com/gelivisasi/agentic-flow-ai"
+            href="https://github.com/gelivisasi/neuraflow-ai"
             target="_blank"
             rel="noreferrer"
             className="btn-secondary"
